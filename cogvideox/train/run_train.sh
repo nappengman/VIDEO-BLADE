@@ -1,0 +1,1 @@
+nohup bash train/train_tdm_1.sh > logs/8.18_test.txt 2>&1 &
