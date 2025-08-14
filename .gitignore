@@ -14,7 +14,7 @@
 
 *.pt
 *.safetensors
-CLAUDE.md
+
 
 # macOS
 .DS_Store
@@ -27,6 +27,7 @@ Thumbs.db
 
 # Claude Code
 .claude/CLAUDE.md
+CLAUDE.md
 
 # 模型文件和权重文件夹
 cogvideox/CogVideoX-5b/
