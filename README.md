@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[📖 Paper](https://arxiv.org/abs/2508.10774) | [🚀 Homepage](https://tacossp.github.io/BLADE-Homepage/) | [💾 Models](https://huggingface.co/GYP666/VIDEO-BLADE) | [📖 中文阅读](README_zh.md)  
+[📖 Paper](https://arxiv.org/abs/2508.10774) | [🚀 Homepage](http://ziplab.co/BLADE-Homepage/) | [💾 Models](https://huggingface.co/GYP666/VIDEO-BLADE) | [📖 中文阅读](README_zh.md)  
 
 </div>
 
