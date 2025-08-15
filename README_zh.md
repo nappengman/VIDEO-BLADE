@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[📖 Paper]() |  [🚀 Homepage](https://tacossp.github.io/BLADE-Homepage/) | [💾 Models](https://huggingface.co/GYP666/VIDEO-BLADE)
+[📖 Paper](https://arxiv.org/abs/2508.10774) |  [🚀 Homepage](https://tacossp.github.io/BLADE-Homepage/) | [💾 Models](https://huggingface.co/GYP666/VIDEO-BLADE)
 
 </div>
 
@@ -257,10 +257,14 @@ VIDEO-BLADE/
 如果您在研究中使用了Video-BLADE，请引用我们的工作：
 
 ```bibtex
-@article{video-blade-2024,
-  title={Video-BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation},
-  author={},
-  year={2024}
+@misc{gu2025videobladeblocksparseattentionmeets,
+    title={Video-BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation},
+    author={Youping Gu and Xiaolong Li and Yuhao Hu and Bohan Zhuang},
+    year={2025},
+    eprint={2508.10774},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2508.10774},
 }
 ```
 
