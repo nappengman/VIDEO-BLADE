@@ -282,4 +282,4 @@ If you use Video-BLADE in your research, please cite our work:
 For any questions or suggestions, feel free to:
 
   - Contact Youping Gu at youpgu71@gmail.com.
-  - Submit an issue on our [Github page](https://github.com/Tacossp/VIDEO-BLADE/issues).
+  - Submit an issue on our [Github page](https://github.com/ziplab/VIDEO-BLADE/issues).

@@ -272,4 +272,4 @@ VIDEO-BLADE/
 
 如有问题或建议，欢迎：
 - Please contact Youping Gu (youpgu71@gmail.com) if you have any questions about this work.
-- 提交issue: [Github issue](https://github.com/Tacossp/VIDEO-BLADE/issues)
+- 提交issue: [Github issue](https://github.com/ziplab/VIDEO-BLADE/issues)
