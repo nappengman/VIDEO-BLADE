@@ -10,9 +10,9 @@ Video-BLADE是一个无需视频数据训练的高效视频生成框架，通过
 
 ## 📢 News
 
-- **[2024-08]** 🎉 Video-BLADE代码和预训练模型发布！
-- **[2024-08]** 📝 支持CogVideoX-5B和WanX-1.3B两种主流视频生成模型
-- **[2024-08]** ⚡ 实现8步高质量视频生成，相比50步baseline显著提速
+- **[2025-08]** 🎉 Video-BLADE代码和预训练模型发布！
+- **[2025-08]** 📝 支持CogVideoX-5B和WanX-1.3B两种主流视频生成模型
+- **[2025-08]** ⚡ 实现8步高质量视频生成，相比50步baseline显著提速
 
 ## ✨ 主要特性
 
@@ -172,7 +172,7 @@ bash train_tdm_1.sh
 **核心训练参数**:
 ```bash
 #如果不是8卡训练需要修改CUDA_VISIBLE_DEVICES和config.yaml的num_processes
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,8 accelerate launch \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch \
     --config_file train/config.yaml \
     train/train_cogvideo_tdm.py \
     --pretrained_model_name_or_path CogVideoX-5b \        # 基础模型路径

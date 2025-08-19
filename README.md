@@ -10,9 +10,9 @@ Video-BLADE is a data-free framework for efficient video generation. By jointly 
 
 ## 📢 News
 
-  - **[Aug 2024]** 🎉 The code and pre-trained models for Video-BLADE have been released\!
-  - **[Aug 2024]** 📝 Support for two mainstream video generation models, CogVideoX-5B and WanX-1.3B, is now available.
-  - **[Aug 2024]** ⚡ Achieved high-quality video generation in just 8 steps, a significant speedup compared to the 50-step baseline.
+  - **[Aug 2025]** 🎉 The code and pre-trained models for Video-BLADE have been released\!
+  - **[Aug 2025]** 📝 Support for two mainstream video generation models, CogVideoX-5B and WanX-1.3B, is now available.
+  - **[Aug 2025]** ⚡ Achieved high-quality video generation in just 8 steps, a significant speedup compared to the 50-step baseline.
 
 ## ✨ Key Features
 
@@ -182,7 +182,7 @@ bash train_tdm_1.sh
 
 ```bash
 # If not training with 8 GPUs, you must modify CUDA_VISIBLE_DEVICES and the num_processes in config.yaml
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,8 accelerate launch \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch \
     --config_file train/config.yaml \
     train/train_cogvideo_tdm.py \
     --pretrained_model_name_or_path CogVideoX-5b \        # Path to the base model
