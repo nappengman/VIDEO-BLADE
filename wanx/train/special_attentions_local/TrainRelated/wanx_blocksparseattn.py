@@ -18,8 +18,14 @@ text_length=0
 import torch.nn as nn
 from torch.nn import functional as F
 from ..utils.tools import timeit
+import math
+
+def upround(num):
+    return math.ceil(num)
+
 def standard_attn(q,k,v):
-    mask=torch.ones([q.size(0),q.size(1),q.size(2)//128+1,k.size(2)//128+1],device=q.device,dtype=torch.bool)
+    # mask=torch.ones([q.size(0),q.size(1),q.size(2)//128+1,k.size(2)//128+1],device=q.device,dtype=torch.bool)
+    mask=torch.ones([q.size(0),q.size(1),upround(q.size(2)/128),upround(k.size(2)/128)],device=q.device,dtype=torch.bool)
     out,lse= block_sparse_attn(q, k, v,block_mask=mask)
     return out,lse
 def pad_to_multiple(x, multiple):
